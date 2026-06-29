@@ -1,0 +1,1672 @@
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f0f7f4;
+    line-height: 1.6;
+    position: relative;
+}
+
+header{
+    text-align: center;
+    padding: 0.2px 0.3px;
+    background: white;
+    color: #2e7d32;
+   padding-top: 5px !important;
+   padding-bottom: 5px !important;
+   min-height: auto !important;
+}
+header h1 {
+    color: #2e7d32;
+    margin: 10px 0 5px;
+}
+.hero-title-asen {
+    /* 1. Mettre automatiquement chaque première lettre en majuscule */
+    text-transform: capitalize;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto; /* 🪄 Magique : force la première lettre de CHAQUE mot en majuscule */
+
+/* 2. Appliquer exactement le style de "Un Avenir Plus Saint Et Durable" à votre définition */
+    /* Même police propre et moderne */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    
+    /* Même rendu visuel que le grand titre du bas */
+    font-size: 40px;               /* Taille imposante identique */
+    font-weight: 700;              /* Écriture bien grasse/épaisse */
+    color: #065f21;                /* Le même vert foncé ASEN */
+    
+    /* Ajustements pour que ce soit net et aéré */
+    line-height: 1.3;              /* Interligne parfait */
+    letter-spacing: -0.5px;        /* Rapprochement premium des lettres */
+    margin-top: 5px;              /* Espace avec le badge du dessus */
+   
+}
+
+
+header p {
+    margin: 0;
+    opacity: 0.9;
+}
+
+.highlight-asen {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    animation: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.logo{
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    height: auto;
+    order: 2;
+    margin-left: auto;
+     max-width: 50%;
+     margin: 10px auto;
+     position: left;
+    justify-content: space-between;
+}
+
+  nav{
+    background: #065f21;
+    padding: 0.1px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+     
+ }
+  nav a {
+      color: white;
+      margin: 10px 15px;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 10px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+  }
+
+  nav a:hover {
+      background: rgba(255,255,255,0.2);
+  }
+
+        .navbar-nav .nav-link {
+  font-size: 0.87rem;
+  font-weight: 200;
+  color: white !important;
+  padding: 05px 13px !important;
+  position: relative;
+   }
+   /* Le conteneur qui regroupe directement vos liens <a> */
+.nav-links {
+    display: flex !important;       /* Aligne les liens horizontalement */
+    flex-direction: row !important; /* Force l'alignement sur une seule ligne */
+    gap: 25px;                      /* Espace régulier entre chaque mot */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+/* Style individuel pour chaque lien <a> */
+.nav-item {
+    text-decoration: none;
+    color: #475569;                 /* Gris de base moderne */
+    font-weight: 500;
+    position: relative;             /* Obligatoire pour positionner la ligne en dessous */
+    padding: 8px 0;
+    transition: color 0.3s ease;
+}
+
+/* Style du lien actif détecté par le JavaScript */
+.nav-item.active {
+    color: #2e7d32 !important;     /* Votre vert ASEN signature */
+    font-weight: 600;
+}
+
+/* Création de la petite ligne verte sous le lien */
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;                       /* La ligne est invisible par défaut */
+    height: 3px;
+    background-color: #2e7d32;       /* Vert de l'indicateur */
+    border-radius: 2px;
+    transition: width 0.3s ease;    /* Animation fluide de déplacement/déploiement */
+}
+
+/* Quand le JavaScript ajoute la classe active, la ligne s'affiche à 100% */
+.nav-item.active::after {
+    width: 100%;
+}
+
+   
+       .logo-section{
+    max-width: 120px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-right: auto;
+  }
+
+
+  .menu{
+    display: flex;
+    gap: 30px;
+   }
+   .logo-container{
+    margin-left: 40px;
+    max-width: 100%;
+   }
+
+
+
+
+.hero {
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 60%;
+   
+}
+  
+.content {
+    padding: 5px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px (0,0,0,0.1);
+}
+#pages-projets h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#pages-projets ul li{
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+#pages-projets ul li{
+    font-size: 1.2rem;
+}
+
+h1,h2 {
+    color:#065f21;
+    margin-top: 0;
+}
+
+
+
+footer{
+    padding:    1px 0px;
+    background: #064d5f;
+    color: white;
+    margin-top: 1px;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 2px 0;
+}
+.footer-block{
+    width: auto;
+}
+
+/* 1. Style de base pour vos liens du footer */
+.flinks li a {
+    color: #ffffff;             /* Couleur du texte par défaut (ex: blanc) */
+    text-decoration: none;      /* Enlève le soulignement par défaut */
+    display: inline-block;      /* Permet d'appliquer des animations fluides */
+    
+    /* L'ANIMATION : Transition douce de 0.3 seconde */
+    transition: all 0.3s ease-in-out; 
+}
+
+/* 2. L'EFFET AU SURVOL (Quand on pose le curseur dessus) */
+.flinks li a:hover {
+    color: #00b894;             /* Change la couleur pour votre vert #00b894 */
+    transform: translateX(5px);  /* Décale légèrement le lien de 5px vers la droite */
+}
+.flinks li:hover{
+    color: #00b894;
+    transition: color 0.3s ease;
+}
+
+.ftit{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: steelblue;
+}
+.flinks li{
+margin-bottom: 12px;
+}
+.flinks a{
+    color: white;
+    text-decoration: none;
+}
+.flinks a:hover{
+    text-decoration: underline;
+}   
+.fbot {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 1px 0;
+  margin-top: 1px 0;
+
+  }
+  .footer-bottom p{
+    text-align: center;
+  }
+  .fdesc{
+    color: rgb(42, 165, 118);
+  }
+  .fciinfo{
+    color: #00b894;
+  }
+  fas fa-chevron-right{
+    color: #00b894;
+  }
+
+.content ul{
+margin-left: 20px;
+padding-left: 20px;
+}
+
+input ,textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #00b894;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    .content {
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    .logo {
+        width: 80px;
+    }
+}
+.navbar-nav .nav-link {
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: #333 !important;
+  padding: 26px 13px !important;
+  position: relative !important;
+  display: inline-block;
+}
+ 
+ 
+ .slogan{
+    color: #e0f2f1;
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 1;
+    text-shadow: 1px 1 px 3px rgba(0,0,0,0.3);
+    animation: fadeInText 1s ease-out 0.3s forwards;
+ }
+    @keyframes fadeInText{
+from{
+    opacity: 1;
+    transform: translateY(10px);
+}
+ to{
+    opacity: 2;
+    transform: translateY(0);
+ }
+    }
+    .definition{
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 0.50px;
+        margin-bottom: 8px;
+    }
+    .slide{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .intro-text{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #1b5e20;
+        padding: 20px 10px;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        max-width: 800px;
+        position: relative;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+    }
+   .intro-box{
+    text-align: center;
+   }
+   .intro-icon{
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+   }
+   .gallery-container{
+    display: grid;
+
+   }
+
+   .asen-poles-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 20p;
+    max-width: 1200px;
+    margin: 0 auto;
+
+   }
+   .pole-card{
+    flex :1;
+    max-width: 1000px;
+    text-align: center;
+   }
+    .pole-images{
+       display: flex;
+       gap: 15px;
+       margin-bottom: 10px;
+       flex-direction: row;
+       @keyframes floating{
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0)px; }
+}
+
+
+    }
+   .pole-images img{
+    
+
+    flex: 1;
+    width:  100% !important;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.10s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+    .pole-images img:active{
+        transform: scale(1.05);
+    }
+
+.pole-card h3{
+    color: #1b5e20;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.pole-card .description{
+    color: #555555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+}
+@media (max-width: 768px){
+    .pole-images img{
+        height: (180px);
+    }
+}
+img{
+    max-width: auto;
+    height: auto;
+    display: flex;
+}
+.img2{
+    width: 80%;
+    height: auto;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.section-header .sub-title{
+    font-family: 'Georgia',serif;
+    font-style: italic;
+    color: #064d5f;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 8px;
+}
+      .section-header .title-subtile{
+        width: 60px;
+        height: 3px;
+        background-color: #e64a19;
+        margin: 0 auto 20px auto;
+        border-radius: 2px;
+      }
+      .section-header h1{
+        font-family: 'Poppins''Arial',sans-serif;
+        color: #222222;
+        font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 auto 15px auto;
+    text-transform: capitalize;
+}
+ .section-header p{
+    color: #666666;
+    font-size: 1.05rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+ }
+ 
+ 
+ * Centrage du titre */
+.text-center {
+    text-align: center !important;
+}
+
+/* Centre la petite ligne sous le titre */
+.title-line.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 80px;
+    height: 4px;
+    background-color: #2e7d32;
+    border-radius: 2px;
+}
+
+/* Design du cadre de message qui va se loger à droite */
+.message-card {
+    background-color: #f4f6f4;      /* Fond gris-vert très clair */
+    border-left: 5px solid #2e7d32;   /* Bordure verte ASEN à gauche */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+}
+
+.message-card .card-subtitle {
+    color: #2e7d32;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.message-card .card-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* S'assurer que les images se positionnent bien et ne débordent pas */
+.custom-img {
+    width: auto !important;
+    height: auto !important;
+    max-height: 200px; /* Limite la hauteur pour éviter que le bloc soit géant */
+    object-fit: cover;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+/* Le Grand Cadre de Droite (Le Texte) */
+.message-card {
+    background-color: #f4f6f4;      /* Fond gris-vert très clair doux */
+    border-radius: 12px;            /* Coins arrondis */
+    padding: 40px;                  /* Espace interne pour que le texte respire */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Ombre légère moderne */
+    border-left: 6px solid #2e7d32; /* Ligne verte distinctive sur le côté */
+}
+
+/* Style des textes à l'intérieur du grand cadre */
+.message-card .card-subtitle {
+    color: #2e7d32;
+    font-size: 2rem;                /* Titre plus grand */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.message-card .card-text {
+    font-size: 1.2rem;              /* Contenu bien lisible */
+    line-height: 1.8;               /* Lignes bien espacées */
+    color: #444444;
+    margin-bottom: 30px;
+}
+
+.axes-title{
+  text-align: center;  
+}
+
+
+.page-specifique{
+    font-size: 0.8rem
+}
+.topbar{
+    margin:20px auto ;}
+
+    .hero-specifique{
+      font-size: 0.8rems;
+      margin:20px auto;
+      text-align: center;
+    }
+
+    nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all O.5s ease;
+    }
+
+    bouton-envoyer {
+  background-color: #2caebb; /* Couleur bleu-vert / turquoise */
+  color: white;              /* Texte blanc */
+  border: none;              /* Supprime la bordure par défaut */
+  padding: 12px 30px;        /* Espace interne (hauteur et largeur) */
+  font-size: 16px;           /* Taille du texte */
+  border-radius: 50px;       /* Arrondit fortement les bords (effet pilule) */
+  cursor: pointer;           /* Change le curseur au survol */
+  font-family: sans-serif;   /* Style de police épuré */
+}
+
+/* Effet au survol de la souris (optionnel) */
+.bouton-envoyer:hover {
+  background-color: #238c96; /* Version un peu plus sombre au survol */
+}
+ /* Style du bouton avec la classe du projet */
+.btn-submit {
+    background-color: #2e7d32; /* Bleu professionnel assorti au pied de page */
+    color: #ffffff;            /* Texte blanc */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 28px;        /* Donne une belle taille au bouton */
+    border: none;              /* Supprime la bordure d'origine du navigateur */
+    border-radius: 6px;        /* Coins légèrement arrondis */
+    cursor: pointer;           /* Curseur en forme de main au survol */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre discrète */
+    transition: all 0.3s ease; /* Transition fluide pour l'animation */
+    margin-top: 15px;          /* Espace le bouton du champ "votre message" */
+}
+
+/* Effet au survol (Hover) */
+.btn-submit:hover {
+    background-color: #2e7d32; /* Change en vert (rappel nature/environnement) */
+    transform: translateY(-2px); /* Léger effet de soulèvement */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Ombre plus prononcée */
+}
+
+/* Effet lors du clic */
+.btn-submit:active {
+ transform: translateY(0); /* Le bouton s'enfonce au clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-card {
+    background-color: #2e7d32;
+    color: #ffffff !important;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container-messages{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 2. Le modèle de cadre pour chaque .content-box */
+.team-container{
+
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-box {
+    background-color: #ffffff;  /* Fond blanc pour le texte */
+    flex: 1 1 calc(50% - 10px); /* Prend exactement la moitié de la largeur (2 par ligne) */
+    min-width: 300px;           /* Se met l'un sous l'autre sur les petits téléphones */
+    padding: 20px;              /* Espace à l'intérieur du cadre */
+    border-radius: 8px; /* Coins arrondis (plus discrets côté gauche) */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Ombre douce tout autour */
+    box-sizing: border-box; /* S'assure que le padding n'augmente pas la largeur totale */
+    /* --- LE MODÈLE SUR LE CÔTÉ (Bordure gauche stylisée) --- */
+    border-left: 6px solid #2e7d32; /* Une ligne épaisse verte sur le côté gauche */
+    transition: all 0.3s ease;
+    padding-top: 5px !important;
+   padding-bottom: 5px !important;
+   min-height: auto !important;
+}
+
+/* Petit effet au survol (optionnel mais très pro) */
+.content-box:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    border-left-color: #1a5c8a;
+}
+/* Style des titres dans vos cadres */
+.content-box h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #1a5c8a; /* Bleu pro */
+    font-size: 19px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Style du texte */
+.content-box p, .content-box ul {
+    color: #4a4a4a;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+    
+.banner-join {
+    max-width: 1000px;        /* Largeur maximale pour que le texte reste facile à lire */
+    margin: 50px auto;        /* Donne de l'espace au-dessus et en dessous, et centre à l'écran */
+    padding: 40px 30px;       /* Grand espace intérieur pour faire respirer le message */
+    background: linear-gradient(135deg, #f4fbf5 0%, #e8f5e9 100%); /* Joli dégradé vert très clair et doux */
+    border-radius: 16px;      /* Des angles très arrondis et modernes */
+    text-align: center;       /* Centre tout le texte au milieu */
+    box-shadow: 0 10px 30px rgba(46, 125, 50, 0.05); /* Ombre très douce teintée de vert */
+    border: 1px solid #c8e6c9; /* Fine bordure discrète verte */
+}
+
+/* Style du titre "Rejoignez-nous" */
+.banner-join h2 {
+    color: #2e7d32;           /* Le vert de l'environnement */
+    font-size: 28px;
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Petite ligne décorative sous le titre */
+.banner-join h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 5px auto 0 auto;
+    border-radius: 2px;
+}
+
+/* Style du paragraphe */
+.banner-join p {
+    color: #455a64;           /* Gris ardoise doux */
+    font-size: 16px;
+    line-height: 1.7;         /* Espacement de texte très agréable à lire */
+    max-width: 750px;         /* Limite la largeur du texte pour l'esthétique */
+    margin: 0 auto 25px auto; /* Centre le paragraphe et crée de l'espace en bas */
+}
+/* Le bouton dans la bannière (Optionnel mais recommandé) */
+.btn-banner {
+    display: inline-block;
+    background-color: #1a5c8a; /* Bleu professionnel */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 30px;       /* Bouton style "pilule" très moderne */
+    box-shadow: 0 4px 10px rgba(26, 92, 138, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-banner:hover {
+    background-color: #2e7d32; /* Devient vert au survol */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(46, 125, 50, 0.3);
+}
+
+#btn-decouvrir{
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+}
+
+
+/* 1. On force l'alignement de tout le contenu à gauche */
+.action-section {
+    text-align: left;
+}
+#accueil{
+padding-top: 10px;
+margin-top: 0 !important;
+}
+/* 2. On raccourcit la ligne verte sous le titre */
+.action-section h2 {
+    display: inline-block;
+    border-bottom: 2px solid #00b894;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* 3. On remet le paragraphe bien en dessous, aligné à gauche */
+.action-section p {
+    display: block;
+    margin-left: 0;
+    text-align: left;
+}
+
+/* ===================================================
+   SECTION 2 : À PROPOS 
+   =================================================== */
+#apropos {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f7fbf8; /* Couleur de fond gris-vert très clair */
+    border-bottom: 1px solid #edf3ee;
+    box-sizing: border-box;
+}
+
+
+/* ===================================================
+   SECTION 3 : STATUTS 
+   =================================================== */
+#projets {
+    padding-top: 40px;
+    padding-bottom: 1px;
+    background-color:#ffffff ; /* Couleur de fond blanche */
+    box-sizing: border-box;
+}
+
+
+/* ===================================================
+   SECTION 4 : PROJETS 
+   =================================================== */
+#notreéquipe {
+    padding-top: 15px;
+    padding-bottom: 70px;
+    background-color: #f7fbf8; /* Couleur de fond gris-vert très clair */
+    border-top: 1px solid #edf3ee;
+    border-bottom: 1px solid #edf3ee;
+    box-sizing: border-box;
+}
+
+
+/* ===================================================
+   SECTION 5 : CONTACT 
+   =================================================== */
+#contact {
+    padding-top: 15px !important;
+    background-color: #ffffff; /* Couleur de fond blanche */
+    box-sizing: border-box;
+    padding-bottom: 90px !important;
+    margin: 0 !important;
+}
+
+
+ /* On cache le menu de base et on le prépare à descendre */
+ .navbar {
+        position: relative;
+        background-color: #ffffff; /* Fond blanc du menu déroulant */
+        padding: 15px 20px;
+        align-items: center;
+        position: relative;
+        padding-bottom: 0 !important;
+        margin: 0 !important;
+    }
+
+
+    
+
+/* --- STYLE DE LA SECTION PERSONNEL --- */
+.team-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ffffff; /* Fond blanc (alterne avec le fond teinté de Projets) */
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.team-section .section-subtitle {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 20px;
+    margin: 40px;
+}
+
+/* --- LA GRILLE DE 3 BOITES HORIZONTALES --- */
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;        /* Permet aux cartes de passer à la ligne suivante par paquets de 3 */
+    gap: 20px;              /* Crée l'espace d'écartement entre les cadres */
+    margin-top: 30px;
+    justify-content: left; /* Centre les cartes s'il y a un reste sur la dernière ligne */ 
+}
+
+  .team-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+/* --- LE CADRE DE CHAQUE PERSONNEL --- */
+.team-card {
+    /* Formule pour afficher exactement 4 cadres par ligne sur ordinateur */
+    flex: 0 1 calc(20%- 16px); 
+    max-width: calc(20% - 16px);
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px  rgba(0, 0, 0, 0.05); /* Ombre légère autour du cadre */
+    border: 1px solid #edf3ee;
+    border-bottom: 4px solid #2e7d32; /* Petite touche verte ASEN en bas du cadre */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: translateY(-8px);
+    cursor: pointer;
+}
+ /* 3. Animation au clic (Active) */
+.team-card:active {
+    transform: translateY(-2px); /* Redescend légèrement quand on clique dessus (effet bouton enfoncé) */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* 4. Bonus : Animation de zoom sur la photo au survol */
+.team-photo-wrapper {
+    overflow: hidden; /* Empêche la photo de déborder du cadre pendant le zoom */
+}
+
+.team-photo-wrapper img {
+    transition: transform 0.10s ease; /* Transition fluide pour le zoom de l'image */
+}
+
+.team-card:hover .team-photo-wrapper img {
+    transform: scale(1.10); /* Zoom de 8% sur la photo quand on survole le cadre */
+}
+
+/* --- ESPACE POUR LA PHOTO (HAUT DU CADRE) --- */
+.team-photo-wrapper {
+    width: 100%;
+    height: 140px;          /* Hauteur fixe pour que toutes vos photos soient alignées */
+    background-color: #f1f5f9; /* Fond gris clair d'attente si pas de photo */
+    overflow: hidden;
+}
+
+.team-photo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* Force l'image à remplir l'espace sans se déformer */
+    display: block;
+}
+
+/* --- TEXTE EN DESSOUS DE LA PHOTO --- */
+.team-info {
+    padding: 20px;
+    text-align: left;       /* Aligne les textes à gauche à l'intérieur du cadre */
+}
+
+.team-name {
+    font-size: 18px;
+    color: #2e7d32;         /* Votre beau vert pour les noms */
+    margin: 0 0 4px 0;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.team-function, .team-profession {
+    font-size: 14px;
+    color: #334155;
+    margin: 6px 0;         /* Petit espace entre la fonction et la profession */
+    line-height: 1.4;
+}
+
+/* --- ADAPTATION POUR ÉCRAN SMARTPHONE & ANDROID --- */
+@media screen and (max-width: 992px) {
+    /* Sur tablette : on passe à 2 cadres par ligne */
+    .team-card {
+        flex: 1 1 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Sur Android/smartphone : les cadres prennent 100% de la largeur et s'empilent verticalement */
+    .team-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    
+    .team-photo-wrapper {
+        height: 280px;      /* Légèrement plus haut sur mobile pour un meilleur visuel */
+    }
+}
+
+.intro-texte{
+    font-size: 15px;
+    color: #334155;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+/* --- STYLE DE LA NAVBAR (ZONE VERTE DU HAUT) --- */
+.navbar-custom {
+  background-color: #2E5A36; /* Ton vert actuel */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centre verticalement le logo et les liens */
+  padding: 10px 40px;
+  position: fixed !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre légère pour un look plus professionnel */
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+}
+
+/* Permet de donner un espace flexible au logo pour que les liens restent centrés */
+.nav-logo { 
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  height: 55px; /* Ajuste la taille de ton logo */
+  border-radius: 8px;
+  width: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Gestion des liens de navigation au milieu */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px; /* Espace entre chaque lien */
+  margin: 0;
+  padding: 0;
+  flex: 2; /* Prend plus d'espace pour permettre le centrage */
+ 
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background: white;
+    transition: 0.3s;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #a3e635; /* Changement de couleur au survol si tu veux */
+}
+
+
+/* Pour équilibrer la navbar et que le centre soit parfait, on crée un faux bloc invisible à droite */
+.navbar-custom::after {
+  content: "";
+  flex: 1;
+}
+/* 1. Placement du sélecteur tout à droite */
+.lang-selector {
+  position: right ;
+  text-align: right; /* Permet de le placer librement */
+  right: 0;
+  top: 15px;           /* Ajustez la hauteur selon votre barre verte */
+  right: 20px;         /* Pousse le bouton complètement à droite de l'écran */
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  margin-right: auto;
+  width: 50px;
+  z-index: 9999;       /* Force le menu à s'afficher au-dessus du site */
+}
+
+/* 2. Style du bouton (Similaire au modèle violet très clair) */
+.lang-btn {
+  background-color: #064d5f; /* Couleur de fond subtile/lavande claire */
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-right: auto;
+  border: none;              /* Supprime les bordures pour faire moderne */
+  border-radius: 4px;        /* Arrondi léger */
+  cursor: pointer;
+  font-weight: 600;
+  align-items: right;
+}
+
+/* --- STYLE DE LA ZONE INTRO / HEADER (JUSTE EN DESSOUS) --- */
+.hero-section {
+  background-color: #ffffff; /* Tu peux la mettre en blanc ou garder un fond clair */
+  padding: 40px 20px;
+  text-align: center; /* Centre tout le texte (Titre, slogan, intro) */
+}
+
+.container-intro {
+  max-width: 900px; /* Évite que le texte de l'intro soit trop large et difficile à lire */
+  margin: 0 auto; /* Centre le bloc sur la page */
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #2E5A36;
+  margin-bottom: 5px;
+}
+
+.hero-section h2 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+
+.intro-texte {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #333;
+  text-align: justify; /* Pour que le gros paragraphe soit propre comme sur ta photo */
+ 
+}
+
+/* --- Mise en page de la section Contact --- */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+/* Centre le texte d'introduction au-dessus */
+.section-intro {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Activation du Flexbox pour mettre côte à côte */
+.contact-flex-container {
+    display: flex;
+    justify-content: space-between; /* Aligne un bloc à gauche, un à droite */
+    align-items: flex-start;        /* Les aligne par le haut */
+    gap: 40px;                      /* Crée un espace de 40px entre les deux blocs */
+    max-width: 1200px;              /* Empêche la section de trop s'élargir sur grand écran */
+    margin: 0 auto;                 /* Centre le conteneur global */
+}
+
+/* Design du Bloc Gauche (Infos) */
+.contact-left-block {
+    flex: 1; /* Prend 50% de l'espace disponible */
+}
+
+/* Design du Bloc Droit (Formulaire) */
+.contact-right-block {
+    flex: 1; /* Prend les autres 50% de l'espace disponible */
+    background-color: #f9f9f9; /* Un léger fond gris pour délimiter le formulaire */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Amélioration visuelle des champs de saisie */
+.contact-right-block input,
+.contact-right-block textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Évite que les champs dépassent du cadre */
+}
+
+/* Style du bouton envoyer */
+.btn-submit {
+    background-color: #2e7d32; /* Reprend le vert de votre charte ASEN */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #1b5e20;
+}
+
+/* --- RESPONSIVE : Pour que ça reste beau sur Téléphone --- */
+@media screen and (max-width: 768px) {
+    .contact-flex-container {
+        flex-direction: column; /* Aligne l'un en dessous de l'autre sur smartphone */
+        gap: 30px;
+    }
+}
+
+/* 1. Le conteneur principal : on réduit sa largeur maximale pour resserrer le tout */
+.contact-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.contact-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;                 /* Espace confortable entre les deux blocs */
+    max-width: 1100px;         /* 🔴 TAILLE RÉDUITE ici pour éviter l'effet trop large */
+    margin: 0 auto;            /* Centre parfaitement le bloc sur l'écran */
+    padding-top: 10px !important;
+}
+
+/* 2. Stylisation du message d'introduction tout en haut */
+.section-intro {
+    text-align: center;
+    font-size: 20px;
+    color: #475569;            /* Gris ardoise doux */
+    font-weight: 700;
+    max-width: 700px;          /* Empêche le texte de s'étaler sur une seule ligne */
+    margin: 0 auto 50px auto;  /* Espace sous le texte */
+    line-height: 1.6;
+    position: relative;
+}
+
+
+
+/* 3. Bloc Gauche : Contactez-nous et son contenu */
+.contact-left-block {
+    flex: 1;
+    max-width: 45%;            /* Un peu plus étroit pour laisser respirer le formulaire */
+}
+
+.contact-left-block h2 {
+    font-size: 26px;
+    color: #1e293b;            /* Couleur très pro, presque noire */
+    margin: 0 0 15px 0;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+
+.contact-left-block p {
+    font-size: 15px;
+    color: #64748b;            /* Gris plus clair pour la description */
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Liste des coordonnées (Email, Téléphone...) */
+.contact-left-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-left-block ul li {
+    font-size: 16px;
+    color: #334155;
+    padding: 12px 0;
+    border-bottom: 1px dashed #e2e8f0; /* Ligne de séparation discrète entre chaque info */
+    display: flex;
+    align-items: center;
+}
+
+.contact-left-block ul li strong {
+    color: #2e7d32;            /* Met en valeur les étiquettes en vert */
+    width: 110px;              /* Aligne parfaitement les textes qui suivent */
+    display: inline-block;
+}
+
+/* 4. Bloc Droit : Formulaire "Envoyer un message" */
+.contact-right-block {
+    flex: 1;
+    max-width: 45%;
+    background-color: #f8fafc; /* Fond gris/bleu très épuré */
+    padding: 30px;
+    border-radius: 12px;       /* Angles adoucis */
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Ombre légère moderne */
+}
+
+.contact-right-block h2 {
+    font-size: 22px;
+    color: #1e293b;
+    margin: 0 0 20px 0;
+}
+
+/* Design des champs de saisie (Inputs et Textarea) */
+.contact-right-block input,
+.contact-right-block textarea {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 5px;        /* Géré proprement sans abuser des <br> */
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;        /* Coins arrondis pour les champs */
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #334155;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+
+}
+
+/* Effet interactif quand on clique dans un champ */
+.contact-right-block input:focus,
+.contact-right-block textarea:focus {
+    outline: none;
+    border-color: #2e7d32;     /* Bordure verte */
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.1); /* Halo vert transparent autour */
+}
+
+/* Style du Bouton Envoyer */
+.btn-submit {
+    width: 100%;               /* Prend toute la largeur du formulaire */
+    background-color: #2e7d32;
+    color: #ffffff;
+    padding: 14px;
+}
+.contact-left-block,
+.contact-right-block {
+    max-width: 100%;     /* Sur mobile, les deux blocs prennent toute la largeur et s'empilent verticalement */
+}
+
+/* --- CONTENEUR D'ACCUEIL FLEX --- */
+.intr-section {
+    background-color: #ffffff; /* Fond blanc épuré ou vert léger selon votre choix */
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.hero-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;        /* Centre verticalement le texte et l'image */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 50px;
+    flex-direction: row-important; /* Assure que le texte reste à gauche et l'image à droite */
+}
+
+/* --- STYLE DU BLOC TEXTE (GAUCHE) --- */
+.hero-text-block {
+    flex: 1;
+    max-width: 10%;
+    text-align: left;
+}
+
+/* Le petit badge ASEN */
+.highlight-asen {
+    font-size: 32px;
+    font-weight: 800;
+    color: #2e7d32;             /* Votre vert ASEN */
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Le titre principal */
+.hero-title {
+    font-size: 36px;
+    color: #1e293b;             /* Presque noir pro */
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 15px 0;
+}
+
+/* Le slogan mis en valeur */
+.hero-slogan {
+    font-size: 18px;
+    font-style: italic;
+    color: #475569;             /* Gris ardoise */
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* La description en dessous */
+.hero-description {
+    font-size: 16px;
+    color: #64748b;             /* Gris texte plus doux */
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* --- STYLE DU BLOC IMAGE (DROIT) --- */
+.hero-image-block {
+    flex: 1;
+    max-width: 1000px ;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 0;
+    width: 85%;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+}
+.second-hero-im{
+    width: 100%;
+    max-width:  550px !important;
+    height: auto;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+.hero-image-block img {
+    width: 50%;
+    max-width: 600px;           /* Empêche l'image de devenir trop géante */
+    height: auto;               /* Garde les proportions de l'image */
+    border-radius: 20px;        /* Coins arrondis modernes pour l'image */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Légère ombre pour donner du relief */
+}
+.hero-image-block img:hover {
+    transform: scale(1.05);     /* Zoom léger au survol pour un effet dynamique */
+    box-shadow: 0 20px 40px rgba(46, 125, 50, 0.15); /* Ombre plus prononcée au survol */
+    transition: transform 0.3s ease;
+}
+
+/* --- MOBILE RESPONSIVE --- */
+@media screen and (max-width: 768px) {
+    .hero-flex-container {
+        flex-direction: column !important; /* Met l'image au-dessus ou en dessous sur mobile */
+        text-align: center;             /* Centre le texte sur smartphone */
+        gap: 35px;
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        gap: 40px;
+        
+    }
+
+    .hero-text-block, 
+    .hero-image-block {
+        max-width: 100%;                /* Prend toute la largeur sur mobile */
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    
+    .hero-title {
+        font-size: 18px;                /* Titre un peu plus petit sur mobile */
+    }
+}
+
+@keyframes floating{
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0)px; }
+}
+
+
+/* Conteneur du bloc contact */
+.footer-contact {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.footer-contact h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #ecf0f1;
+}
+
+/* Liste des éléments */
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Style des icônes */
+.footer-contact i {
+    font-size: 18px;
+    color: #3498db; /* Couleur bleue pour l'icône */
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* Style des liens cliquables (téléphone et email) */
+.footer-contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+
+
+
+
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.contact-item i {
+  font-size: 20px;
+  color: #3498db;
+  margin-right: 12px;
+}
+.contact-item p, 
+.contact-item a {
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: #3498db;
+}
+.fci{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+.fci i{
+    font-size: 10px;
+    color: #3498db;
+    min-width: 15px;
+    text-align: center;
+}
+*
+
+
+
+ /* Style par défaut (mobile) */
+.hero-content {
+    display: flex;
+    flex-direction: column; /* Empile le texte et l'image verticalement */
+    align-items: center;    /* Centre tout proprement */
+    padding: 15px;
+    text-align: center;     /* Centre le texte sur mobile pour un meilleur look */
+}
+
+/* On force l'image à ne pas dépasser la largeur de l'écran */
+.hero-content img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;       /* Ajoute un petit espace entre le texte et l'image */
+}
+ 
+
+
+/* Style du mot indicateur (Le Badge au début du contenu) */
+.indicator{
+    width: 100%;
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-badge {
+    display: inline-block;
+    color: #2e7d32;                 /* Écrit en blanc pour bien ressortir */
+    font-size: 18px;                /* Petit sur mobile pour ne pas être agressif */
+    font-weight: 1000;
+    text-transform: uppercase;      /* Force les majuscules (ACCUEIL, NOS PROJETS...) */
+    letter-spacing: 1px;            /* Espace légèrement les lettres */
+}
+
+/* Version PC : On ajuste légèrement la taille si besoin */
+@media screen and (min-width: 1024px) {
+    .section-badge {
+        font-size: 13px;            /* Un tout petit peu plus grand sur ordinateur */
+        padding: 8px 18px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.footer{
+    background:#0d3b66;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+    padding:50px 8%;
+}
+
+.footer-box{
+    flex:1;
+    min-width:260px;
+}
+
+.footer-box h3{
+    margin-bottom:20px;
+}
+
+.footer-box ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer-box ul li{
+    margin:10px 0;
+}
+
+.footer-box ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer-box ul li a:hover{
+    color:#3ddc84;
+}
+
+.map{
+    margin-top:8px;
+}
+
+.map iframe{
+    width:50%;
+    height:120px;
+    border:0;
+    border-radius:5px;
+}
+
+.copyright{
+    background:#06294a;
+    color:white;
+    text-align:center;
+    padding:15px;
+}                                           
+
+
+
+<input type="radio" id="lang-fr-switch" name="lang-toggle" checked>
+         <input type="radio" id="lang-en-switch" name="lang-toggle">  
+           <div class="lang-switch-container">
+            <label for="lang-fr-switch" class="btn-lang btn-fr">FR</label>
+            <label for="lang-en-switch" class="btn-lang btn-fr">EN</label>
+           </div>
+            <section id="hero">
+       <div class="container">
+        <div class="lang-fr">
